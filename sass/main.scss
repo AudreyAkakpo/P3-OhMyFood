@@ -1,0 +1,24 @@
+@import "./utils/variables.scss";
+@import "./utils/mixins.scss";
+@import "./layout/header.scss";
+@import "./layout/localisation.scss";
+@import "./layout/fonctionnement.scss";
+@import "./layout/restaurants.scss";
+@import "./layout/menu.scss";
+@import "./layout/footer.scss";
+@import "./components/boutons.scss";
+
+// ELEMENTS PRINCIPAUX
+
+* {
+    box-sizing: border-box;
+}
+* a {
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: $main-font;
+    width: 100%;
+    margin: auto;
+}
