@@ -50,10 +50,16 @@
         .hoverheart__content-solid{
             opacity: 1;
             transition: .3s ease-in-out;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
         }
         .hoverheart__content-light{
             opacity: 0;
             transition: .3s ease-in-out;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
         }
     }
     .hoverheart__content-solid{
